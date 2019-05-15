@@ -1,0 +1,57 @@
+.body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+
+.side{
+    width: 250px;
+    height: 100%;
+    background-color: yellowgreen ;
+   position: fixed;
+    margin-left:-260px;
+    z-index: 2;
+    overflow-x: hidden;
+    position: absolute;
+
+
+
+}
+.side .text{
+    margin:25% -120px 0 0;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    list-style-type: none;
+}
+.side .text a{
+    text-decoration: none;
+    color: rgb(110, 32, 32);
+    display: block;
+}
+.side .text a:hover{
+    color:white;
+    transition: 0.2s; 
+}
+#ourSide i{
+    position: absolute;
+    margin-top: 5px;
+    margin-left:90%;
+    color: white;
+    
+}
+.slide{
+    height: 50px;
+    width: 100px;
+    background-color: blueviolet;
+    color:white;
+    border-radius: 5px;
+    margin: 50px;
+    padding: 7px;
+    margin-left: 5px;
+    position: absolute;
+    
+}
